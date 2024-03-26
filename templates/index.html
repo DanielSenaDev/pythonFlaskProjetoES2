@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+    
+</head>
+<body>
+    <!--header-->
+    <header>
+        <!--container-->
+        <div class="container">
+            <nav>
+                <a href="index.html" class="logo-link"></a>
+                <ul class="ul">
+                    <a href="index.html">Home</a>
+                    <a href="{{ url_for('consulta') }}">Consultar Beneficio</a>
+                    <a href="relatorio.html">Relatorio</a>
+                    <a href="api.html">API</a>
+                    <a class="btn" href="acesso.html">Acesso</a>
+                </ul>
+            </nav>
+            <section class="banner">
+                <div class="banner-text">
+                    <h1>INSS BENEFÍCIOS</h1>
+                    <P>Consulte seu benefício</P>
+                    <a href="vistitante.html" class="btn">VISITANTE</a>
+                </div>
+            </section>
+            <section class="chat">
+                <div class="chat-text">
+                    <a href="chat.html" class="btn1">CLIQUE AQUI PARA FALAR COMIGO</a>
+                </div>
+            </section>
+        </div>
+        <!-- fim container-->
+    </header>
+    <!--fim header-->
+   
+</body>
+</html>

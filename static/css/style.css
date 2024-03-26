@@ -1,0 +1,150 @@
+@import url('<style> @import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Text:ital,wght@0,400..800;1,400..800&display=swap') </style>');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    background-color: rgb(229, 231, 230);
+}
+
+section,
+footer{
+    padding: 54px 0;
+}
+
+h3{
+    font-size: 50px;
+}
+
+p{
+    color: #0000009c;
+}
+
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 5%;
+}
+.btn{
+    background-color: #7cb2f3;
+    color:rgb(7, 7, 7);
+    padding: 15px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    display: inline-block;
+    transition: 0.1s;
+}
+
+.btn:hover{
+    background-color: #3580db;
+}
+
+@keyframes animacao {
+    from{
+        outline: 0px solid #4f9bf98a;
+    }
+    to{
+        outline: 15px solid #4f9bf98a;
+    }
+}
+
+.btn1{
+    background-color: #7cb2f3;
+    color:rgb(7, 7, 7);
+    padding: 15px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    display: inline-block;
+    transition: 0.1s;
+}
+
+.btn1:hover:hover{
+    background-color: #3580db;
+}
+
+@keyframes animacao {
+    from{
+        outline: 0px solid #4f9bf98a;
+    }
+    to{
+        outline: 15px solid #4f9bf98a;
+    }
+}
+
+header{
+    background-image: url("../img/background-home.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+nav ul a{
+    color: rgb(7, 7, 7);
+    margin: 0 25px;
+    text-transform: uppercase;
+    font-size: 20px;
+    display: block;
+}
+
+nav ul a:not(.btn):after{
+    content: "";
+    background-color: rgb(30, 0, 255);
+    height: 3px;
+    width: 0%;
+    display: block;
+    margin: 0 auto;
+    transition: 0.3s;
+}
+
+nav ul a:hover::after{
+    width: 100%;
+}
+
+a.logo-link {
+    background-image: url("../img/Logo.png");
+    display: inline-block; /* Garante que o elemento tenha uma altura e largura para exibir a imagem */
+    width: 200px; /* Defina a largura da imagem */
+    height: 100px; /* Defina a altura da imagem */
+    background-size: contain; /* Ajuste o tamanho da imagem conforme necessário */
+    background-repeat: no-repeat; /* Evita a repetição da imagem */
+}
+
+.banner{
+    display: flex;
+    justify-content: center;
+}
+
+.banner .banner-text{
+    margin: 100px;
+    text-align: center;
+    padding: 0 90px;
+}
+
+.banner .banner-text h1{
+    font-size: 96px;
+    color: black;
+}
+
+.banner .banner-text p{
+    font-size: 30px;
+    color: #000000e1;
+    font-weight: lighter;
+    margin: 18px;
+}
